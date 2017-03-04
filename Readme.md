@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Анастасия Помелило](https://up.htmlacademy.ru/adaptive/10/user/238025).
-* Наставник: `Неизвестно`.
+* Наставник: `Артем Альтигин`.
 
 ---
 
