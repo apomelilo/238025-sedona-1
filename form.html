@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <ul class="main-nav__items">
+          <li class="main-nav__item"><a href="index.html">Главная</a></li>
+          <li class="main-nav__item"><a href="photo.html">Фото и видео</a></li>
+          <li class="main-nav__item"><a href="#">Форма отзыва</a></li>
+          <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+        </ul>
+        <div class="page-header__logo">
+          <img src="img/logo.png">
+        </div>
+        <button class="main-nav__toggle" type="button">
+          Открыть меню
+        </button>
+      </nav>
+    </header>
+    <section class="description">
+      <div class="description__foto">
+        <img src="img/description.jpg">
+      </div>
+      <p class="description__definition">Оставьте свой отзыв</p>
+      <p class="description__cause">
+        Помогите нашим отелям стать лучше! Оставьте отзыв о них, а
+        также о посещенных вами достопримечательностях
+      </p>
+    </section>
+    <form class="feedback-form" action="https://echo.htmlacademy.ru/"
+    method="post">
+      <fieldset>
+        <legend class="feedback-form__title">
+          Представтесь:
+        </legend>
+        <label for="name">Имя*:<label>
+        <input type="text" name="name" id="name" required>
+        <label for="surname">Фамилия*:<label>
+        <input type="text" name="surname" id="surname" required>
+        <label for="patronymic">Отчество:<label>
+        <input type="text" name="patronymic" id="patronymic">
+      </fieldset>
+      <fieldset>
+        <legend class="feedback-form__title">
+          Контактная информация:
+        </legend>
+        <label for="phone">Контактная информация*:<label>
+        <input type="tel" name="phone" id="phone" required>
+        <label for="e-mail">Электронная почта*:<label>
+        <input type="email" name="e-mail" id="e-mail" required>
+      </fieldset>
+      <fieldset>
+        <legend class="feedback-form__title">
+          Ваше общее впечатление:
+        </legend>
+        <input type="radio" name="impression" id="positive"
+        value="positive" checked>
+        <label for="positive">Скорее положительное</label>
+        <input type="radio" name="impression" id="negative" value="negative">
+        <label for="negative">Скорее отрицательное</label>
+        <input type="radio" name="impression" id="difficult" value="difficult">
+        <label for="difficult">Затрудняюсь ответить</label>
+      </fieldset>
+      <fieldset>
+        <legend class="feedback-form__title">
+          Посещенные достопримечательности:
+        </legend>
+        <input type="checkbox" name="devil-bridge" id="devil-bridge"
+        value="devil-bridge" checked>
+        <label for="devil-bridge">Мост Дьявола</label>
+        <input type="checkbox" name="slide-park" id="slide-park"
+        value="slide-park" checked>
+        <label for="slide-park">Слайд-Парк</label>
+        <input type="checkbox" name="mount-bell" id="mount-bell"
+        value="mount-bell">
+        <label for="mount-bell">Гора Колокол</label>
+        <input type="checkbox" name="red-rocks" id="red-rocks"
+        value="red-rocks" checked>
+        <label for="red-rocks">Красные скалы</label>
+      </fieldset>
+      <fieldset>
+        <legend class="feedback-form__title">
+          Опишите свои эмоции:
+        </legend>
+        <input type="textarea" name="emotion" value="Опишите подробно все свои восторги">
+      </fieldset>
+      <button type="submit" class="feedback-form__buttom">
+        Отправить отзыв
+      </button>
+    </form>
+    <footer class="page-footer">
+      <p class="page-footer__tag">#visitsedona</p>
+      <p class="page-footer__social">
+        <span class="social-links">
+          <a class="social-link social-link--vk" href="#">Twitter</a>
+          <a class="social-link social-link--fb" href="#">Facebook</a>
+          <a class="social-link social-link--in" href="#">YouTube</a>
+        </span>
+      </p>
+      <p class="page-footer__copyright">
+        Разработано:
+        <a class="page-footer__copyright-link" href="#">HTML Academy</a>
+      </p>
+    </footer>
+  </body>
+</html>
